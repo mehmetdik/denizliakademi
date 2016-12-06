@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}
+            {% include "style.html.twig" %}
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+
+        {% include "pageloader.html.twig" %}
+        {% include "video.html.twig" %}
+        {% include "navigation.html.twig" %}
+        {% block body %}{% endblock %}
+        {% include "contactus.html.twig" %}
+        {% include "footer.html.twig" %}
+
+        {% block javascripts %}
+            {% include "javascripts.html.twig" %}
+        {% endblock %}
+
+
+    </body>
+</html>

@@ -1,0 +1,19 @@
+src:
+    path:     /src
+    defaults: { _controller: AppBundle:Services:src }
+
+psikoteknik:
+    path: /psikoteknik
+    defaults: { _controller: AppBundle:Services:psikoteknik }
+
+udy-ody-adr:
+    path: /udy-ody-adr
+    defaults: { _controller: AppBundle:Services:belgeler }
+
+tmgd:
+    path: /tmgd
+    defaults: { _controller: AppBundle:Services:tmgd }
+
+mainpage:
+    path: /mainpage
+    defaults: { _controller: AppBundle:Services:mainpage}

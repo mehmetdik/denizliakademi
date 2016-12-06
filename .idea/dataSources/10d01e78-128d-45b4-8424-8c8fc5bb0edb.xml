@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - @localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="deneme">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="denizliakedemi2"/>
+    <schema id="3" name="information_schema"/>
+    <schema id="4" name="mysql"/>
+    <schema id="5" name="performance_schema"/>
+    <schema id="6" name="phpmyadmin"/>
+    <schema id="7" name="servicesurfing"/>
+    <schema id="8" name="sys"/>
+    <schema id="9" name="Ticket"/>
+    <schema id="10" name="Ticket2"/>
+    <schema id="11" name="Ticket3"/>
+    <schema id="12" name="Ticket4"/>
+  </database-model>
+</dataSource>
